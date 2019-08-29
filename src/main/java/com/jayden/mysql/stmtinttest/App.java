@@ -13,6 +13,6 @@ public class App {
     public static void main(String[] args) {
         ConfigurableApplicationContext context = SpringApplication.run(App.class, args);
         QueryTest queryTest = context.getBean(QueryTest.class);
-        queryTest.query();
+        queryTest.test();
     }
 }
